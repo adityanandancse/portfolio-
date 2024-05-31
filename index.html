@@ -1,0 +1,252 @@
+<!--Declares the document type and version of HTML-->
+<!--Std. mode activation: Including <!DOCTYPE html> at the beginning of your HTML
+document ensures that the browser renders the page in standards mode-->
+<!DOCTYPE html>
+<!--It is the root element that wraps all other HTML elements-->
+<!--Defining the language we are using. i.e. "en" for english-->
+<html lang="en">
+    <!--it contains meta information about the document, such as character encoding
+    and viewport settings-->
+<head>
+    <!--Meta tags serve important functions in an HTML Document, enhancing its compatibility, accessibility, and 
+    Search Engine Optimization(SEO)-->
+    <!--"UTF-8" is a universal character encoding standard that supports characters from practically all written languages-->
+    <!--Helps Prevent Issue related to the interpretation of special characters and symbols in your content-->
+    <meta charset="UTF-8">
+    <!--Provides Responsiveness to the website. Setting initial scale is 1.0 to open the website at 100% zoomscale(Fit to device width)-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Portfolio page of Aditya Nandan">
+    <!--It sets Title of the web page-->
+    <title>Aditya Nandan | Portfolio</title>
+    <!--favicon-->
+    <link rel="icon" href="/Img/Aditya Logo TBG.ico" type="image/x-icon">
+    <link rel="Stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&amp;display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="/script.js"defer></script>
+</head>
+<!--It Contains Visible content of the webpage-->
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="/index.html" class="nav-logo">
+                <img src="/Img/Aditya Logo TBG.png" alt="Aditya Logo">
+            </a>
+            <div class="nav-toggle"><i class="fas fa-bars"></i></div>
+        </div>
+        <div class="nav-menu">
+            <a href="/index.html">Home</a>
+            <a href="/contact.html">Contact</a>
+            <a href="/skills.html">Skills</a>
+            <a href="#" class="resume-button" download>Download Resume</a>
+            <div id="dark-mode-toggle" class="dark-mode-toggle">
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </nav>
+    <!--Align the content to center-->
+    
+    <!--Creates Header Section of the web page-->
+        <header>
+            <!--SEO Monitors the tag that we use.-->
+            <!--H1 has the biggest font size-->
+            <!--<h1> to <h6> is ahedaing element-->
+                <img src="/Img/Aditya Pro Pic.webp" alt="Aditya Profile Picture">
+            <h1>Welcome to my Portfolio !<br>
+            Hello, I am Aditya Nandan, a <span class="about-me"></span></h1>
+            <!--paragraph-->
+            <p></p>
+            <p> I am passionate about bridging technology and user needs, I am a full-Stack developer with a robust foundation in computer science and a zeal for continuous learning. specializing in creating seamless, intuitive digital experience, my expertise spans front-end and back-end development, including technologies like javaScript, React and Node.js. I thrive on problem-solving and innovation, aiming to contribute to projects that push technological boundaries. Eager to collaborate with like-minded teams, i am on a quest to develop impactful web solutions that drives success and foster growth. Full Stack Developer specializing in the MERN (MongoDB, Express.js, React, Node.js) and MEAN (MongoDB, Express.js, Angular, Node.js) stacks.
+            </p>
+        </header>
+        <!--Creates a horizontal line-->
+        <hr>
+        <!--Creates a section for different content category-->
+        <!--About Me-->
+        <section>
+            <h2>ABOUT ME</h2>
+            <P>
+                I'm a dedicated and self-taught Full Stack Developer specializing in the MERN (MongoDB, Express.js, React, Node.js) and MEAN (MongoDB, Express.js, Angular, Node.js) stacks. My journey into the world of coding began with a passion for technology and a drive to create meaningful solutions. Through perseverance and a love for learning, I have honed my skills and continue to expand my knowledge every day.
+            </P>
+            <!--<Img>tag is used to add image to the webpage. src is basically the path location where the image is saved-->
+            <!--Alt text is nothing but the alternate text when image failed to loads due the internet connectivity or by any reason-->
+            <!--Always try to use .webp iamge to website. it is optimized for website or webpages already-->
+            <img src="/Img/Aditya Pro Pic.webp" alt="Aditya Picture">
+        </section>
+        <hr>
+
+    <div class="content-container">
+        <section class="horizontal-scroll">
+            <div class="icon-container">
+                <img width="40" height="40" src="https://img.icons8.com/ios-filled/40/000000/git.png" alt="git"/>
+                <img width="40" height="40" src="https://img.icons8.com/ios-filled/40/github.png" alt="github"/>
+                <img width="40" height="40" src="https://img.icons8.com/color/40/html-5--v1.png" alt="html-5--v1"/>
+                <img width="48" height="48" src="https://img.icons8.com/color/48/css3.png" alt="css3"/>
+                <img width="48" height="48" src="https://img.icons8.com/color/48/javascript--v1.png" alt="javascript--v1"/>
+                <img width="40" height="40" src="https://img.icons8.com/officel/40/react.png" alt="react"/>
+                <img width="40" height="40" src="https://img.icons8.com/ios-filled/40/redux.png" alt="redux"/>
+                <img width="40" height="40" src="https://img.icons8.com/fluency/40/node-js.png" alt="node-js"/>
+                <img width="48" height="48" src="https://img.icons8.com/fluency/48/express-js.png" alt="express-js"/>
+                <img width="40" height="40" src="https://img.icons8.com/external-outline-juicy-fish/40/external-sql-coding-and-development-outline-outline-juicy-fish.png" alt="external-sql-coding-and-development-outline-outline-juicy-fish"/>
+                <img width="48" height="48" src="https://img.icons8.com/color/48/mongo-db.png" alt="mongo-db"/>
+                <img width="48" height="48" src="https://img.icons8.com/color/48/postgreesql.png" alt="postgreesql"/>
+                <img width="40" height="40" src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/40/external-jest-can-collect-code-coverage-information-from-entire-projects-logo-color-tal-revivo.png" alt="external-jest-can-collect-code-coverage-information-from-entire-projects-logo-color-tal-revivo"/>
+                <img width="48" height="48" src="https://img.icons8.com/color/48/vue-js.png" alt="vue-js"/>
+                <img width="48" height="48" src="https://img.icons8.com/color/48/heroku.png" alt="heroku"/>
+                <img width="48" height="48" src="https://img.icons8.com/color/48/angularjs.png" alt="angularjs"/>
+                <img width="40" height="40" src="https://img.icons8.com/ios/40/flask.png" alt="flask"/>
+                <img width="50" height="50" src="https://img.icons8.com/ios/50/django.png" alt="django"/>
+                <img width="48" height="48" src="https://img.icons8.com/color/48/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo--v1"/>
+                <img width="48" height="48" src="https://img.icons8.com/color/48/c-plus-plus-logo.png" alt="c-plus-plus-logo"/>
+                <img width="48" height="48" src="https://img.icons8.com/color/48/figma--v1.png" alt="figma--v1"/>
+                <img width="48" height="48" src="https://img.icons8.com/color/48/adobe-illustrator--v1.png" alt="adobe-illustrator--v1"/>
+                <img width="48" height="48" src="https://img.icons8.com/fluency/48/wordpress.png" alt="wordpress"/>
+                <img width="48" height="48" src="https://img.icons8.com/fluency/48/canva.png" alt="canva"/>
+                <img width="40" height="40" src="https://img.icons8.com/ios-filled/50/bootstrap.png" alt="bootstrap"/>
+                <img width="48" height="48" src="https://img.icons8.com/color/48/python--v1.png" alt="python--v1"/>
+            </div>
+        </section>
+        <hr>
+        <section id="programming-languages">
+            <h2>Programming Languages</h2>
+            <div class="skill">
+                <p>HTML</p>
+                <div class="progress-bar" data-progress="90"></div>
+            </div>
+
+            <div class="skill">
+                <p>CSS</p>
+                <div class="progress-bar" data-progress="85"></div>
+            </div>
+
+            <div class="skill">
+                <p>JavaScript</p>
+                <div class="progress-bar" data-progress="85"></div>
+            </div>
+
+            <div class="skill">
+                <p>Python</p>
+                <div class="progress-bar" data-progress="90"></div>
+            </div>
+
+
+            <div class="skill">
+                <p>Java</p>
+                <div class="progress-bar" data-progress="85"></div>
+            </div>
+
+
+            <div class="skill">
+                <p>bootstrap</p>
+                <div class="progress-bar" data-progress="50"></div>
+            </div>
+        </section>
+        <!--My Skills-->
+        <section>
+            <h2>My Skills</h2>
+            <p>Overview of the technical and professional skills I bring to the table as a Full Stack Developer. My expertise spans a variety of technologies and methodologies, allowing me to build robust, scalable, and user-friendly applications.
+                Full Stack Development.
+                As a Full Stack Developer, I have a thorough understanding of both front-end and back-end development, enabling me to create complete web solutions from scratch.</p>
+            <table align="center">
+                <tr>
+                    <td>
+                        <ul style="text-align:left;">
+                            <h2>Front-End</h2>
+                            <li><b>HTML & CSS:</b> Crafting semantic, responsive and accessible web pages.</li>
+                            <li><b>JavaScript:</b> Writing clean, efficient, and scalable JavaScript code.</li>
+                            <li><b>React:</b> Building dynamic and interactive user interfaces with React.</li>
+                            <li><b>Angular:</b> Developing powerful single-page applications with Angular.</li>
+                            <br>
+                            <h2>Back-End</h2>
+                            <li><b>Node.js:</b> Creating fast and scalable server-side applications.</li>
+                            <li>Developing robust APIs and web services with <b>Express.js.</b></li>
+                            <li><b>MongoDB:</b> Implementing flexible and scalable database solutions with MongoDB.</li>
+                            <li><b>RESTful APIs:</b> Designing and integrating RESTful APIs for seamless client-server communication.</li>
+                            <br>
+                            <h2>Tools and technologies:</h2>
+                            <p>To streamline my workflow and ensure high-quality output, I leverage a variety of tools and technologies:</p>
+                            <li><b>Version Control:</b> Git and GitHub for source code management and collaboration.</li>
+                            <li><b>Containerization:</b> Docker for creating consistent development environments.</li>
+                            <li><b>Firebase:</b>Utilizing Firebase for backend services, including authentication and real-time databases.</li>
+                            <li><b>Project Management:</b>Agile methodologies and tools like Jira and Trello for efficient project management.</li>
+                            <br>
+                            <h2>Data Structures and Algorithms:</h2>
+                            <p>A strong foundation in Data Structures and Algorithms (DSA) is crucial for problem-solving and writing efficient code. My DSA skills in Java enable me to:</p>
+                            <li>Optimize code performance.</li>
+                            <li>Solve complex computational problems.</li>
+                            <li>Implement efficient data manipulation and storage solutions.</li>
+                            <br>
+                            <h2>Android Development:</h2>
+                            <p>I am expanding my skill set to include mobile application development with Kotlin. This allows me to create intuitive and high-performance Android applications.</p>
+                            <li><b>Kotlin:</b> Writing clean, modern, and efficient code for Android apps.</li>
+                            <li><b>Android Studio:</b>Utilizing Android Studio for development, testing, and debugging.</li>
+                            <li><b>UI/UX Design:</b>Designing user-friendly interfaces for mobile applications.</li>
+                            <br>
+                            <h2>Soft Skills:</h2>
+                            <p>Technical expertise is complemented by strong soft skills, which are essential for successful collaboration and project delivery:</p>
+                            <li><b>Problem-solving:</b> Analytical and creative problem-solving abilities.</li>
+                            <li><b>Communication:</b> Clear and effective communication with team members and stakeholders.</li>
+                            <li><b>Collaboration:</b>Team player with experience in collaborative development environments.</li>
+                            <li><b>Continuous Learning:</b>Commitment to staying updated with the latest technologies and best practices.</li>
+                            <br>
+                            <h2><b>Let’s Collaborate:</b></h2>
+                            <p>If you’re interested in collaborating or have a project in mind, feel free to reach out. I’m always excited to take on new challenges and contribute to innovative projects. <a href="mailto:cse.adityanandan@gmail.com">Conatct Me</a> to get in touch with me.</p>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <hr>
+
+        <section>
+            <h2>Portfolio | My Projects</h2>
+            <p>Highlighting the diverse range of web applications I've developed. Each project reflects my dedication to creating innovative and efficient solutions.</p>
+            <p><a href="#">Project 1</a> | <a href="#">Project 2</a></p>
+        </section>
+        <hr>
+
+        <section>
+            <h2>Contact Me</h2>
+            <p>For your convenience, you can also use the contact form below to send me a message directly. I strive to respond to all enquiries within 24-48 hours.</p>
+            <form action="mailto:cse.adityanandan@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required><br><br>
+            
+            <label for="subject">Contact No.:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Your Contact No." required><br><br>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Your Message"></textarea><br><br>
+            
+            <button type="submit">Submit</button>
+            </form>
+        </section>
+        <hr>
+
+                <!--Contact Me-->
+                <section>
+                    <h2><b>Contact Information</b></h2>
+                    <p>I'd love to hear from you! Whether you have a question, a project idea, or just want to connect, feel free to reach out. Here's how you can get in touch with me:</p>
+                    <p>Connect with me on:</p>
+                    <a href="mailto:cse.adityanandan@gmail.com" class="icon-link email-icon"><i class="fas fa-envelope"></i></a>  
+                    <a href="https://www.linkedin.com/in/theadityanandan/"class="icon-link linkedin-icon"><i class="fab fa-linkedin"></i></a>
+                </section>
+                <hr>
+    </div>    
+
+        <footer>
+            <p>&copy; 2024. Developed with &#128150; by Aditya Nandan.</p>
+        </footer>
+    </center>
+    
+</body>
+</html>
